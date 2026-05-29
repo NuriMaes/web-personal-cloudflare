@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuria Maestre · Python Developer & AI Automation</title>
+  <meta name="description" content="Portfolio profesional de Nuria Maestre — Python Developer especializada en AI Automation & Agents, SQL y Business Intelligence con experiencia en FinTech." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <span class="nav-logo" style="font-family: 'Great Vibes', cursive; font-size: 2rem; font-weight: 400; letter-spacing: 0;">Nuria M.</span>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#hero" class="nav-link">Inicio</a></li>
+        <li><a href="#about" class="nav-link">Sobre mí</a></li>
+        <li><a href="#skills" class="nav-link">Habilidades</a></li>
+        <li><a href="#experience" class="nav-link">Experiencia</a></li>
+        <li><a href="#education" class="nav-link">Formación</a></li>
+        <li><a href="#contact" class="nav-link cta-link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero" aria-label="Presentación principal">
+    <div class="hero-bg-image" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        Disponible para proyectos
+      </div>
+      <h1 class="hero-name">Nuria Maestre</h1>
+      <p class="hero-tagline">Python Developer <span class="separator" aria-hidden="true">·</span> AI Automation &amp; Agents <span class="separator" aria-hidden="true">·</span> FinTech &amp; BI</p>
+      <p class="hero-description">
+        Transformo datos en decisiones y flujos manuales en automatizaciones inteligentes.<br />
+        Especializada en combinar mi experiencia financiera con el poder de la IA.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary" id="hero-cta-contact">Hablemos</a>
+        <a href="#about" class="btn btn-ghost" id="hero-cta-about">Descubre más</a>
+      </div>
+    </div>
+    </div>
+    <div class="hero-divider"></div>
+    <div class="hero-footer-info">
+      <span>Elche/Elx, España</span>
+      <span>AI & Data Solutions</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about" aria-label="Sobre mí">
+    <div class="container reveal-section">
+      <div class="section-tag">Sobre mí</div>
+      <h2 class="section-title">De las finanzas a la <span class="gradient-text">inteligencia artificial</span></h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Soy desarrolladora Python con más de <strong>15 años de experiencia</strong> en el sector financiero. 
+            Comencé mi carrera en banca y contabilidad, donde desarrollé una mentalidad analítica y orientada a datos. 
+            Actualmente, aplico ese conocimiento de negocio para construir automatizaciones con IA y soluciones de Business Intelligence.
+          </p>
+          <p>
+            Mi punto diferencial es la combinación de la <strong>visión estratégica financiera</strong> con las capacidades técnicas de Python, SQL y los modelos de IA más modernos. 
+            Actualmente cursando un <strong>Máster en Desarrollo Full Stack</strong> para ampliar mis capacidades en el desarrollo web.
+          </p>
+          <div class="about-location">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Elche/Elx, Comunitat Valenciana, España
+          </div>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card" id="stat-years">
+            <span class="stat-number">15<span class="stat-plus">+</span></span>
+            <span class="stat-label">Años en finanzas</span>
+          </div>
+          <div class="stat-card" id="stat-certs">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Certificaciones</span>
+          </div>
+          <div class="stat-card" id="stat-tools">
+            <span class="stat-number">10<span class="stat-plus">+</span></span>
+            <span class="stat-label">Herramientas & stacks</span>
+          </div>
+          <div class="stat-card" id="stat-degree">
+            <span class="stat-number">4</span>
+            <span class="stat-label">Títulos académicos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section section-alt" id="skills" aria-label="Habilidades y servicios">
+    <div class="container">
+      <div class="section-tag">Habilidades &amp; Servicios</div>
+      <h2 class="section-title">Lo que puedo hacer <span class="gradient-text">por ti</span></h2>
+
+      <div class="services-grid scroller">
+        <article class="service-card reveal-section" id="service-python">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Python Development</h3>
+          <p>Scripts de automatización, procesamiento de datos, APIs REST y bots. Código limpio, mantenible y documentado.</p>
+          <ul class="service-tags" aria-label="Tecnologías relacionadas">
+            <li>Python</li><li>FastAPI</li><li>Pandas</li><li>ORMs</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal-section" id="service-ai">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 2a10 10 0 0 1 10 10"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>AI Automation &amp; Agents</h3>
+          <p>Diseño e implementación de agentes de IA para automatizar flujos complejos. Integración con herramientas como NotebookLM y Supabase.</p>
+          <ul class="service-tags" aria-label="Tecnologías relacionadas">
+            <li>LLMs</li><li>Agents</li><li>Supabase</li><li>Google Stitch</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal-section" id="service-sql">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></svg>
+          </div>
+          <h3>SQL &amp; Business Intelligence</h3>
+          <p>Consultas avanzadas, modelado de datos y construcción de dashboards. Análisis orientado a la toma de decisiones estratégicas.</p>
+          <ul class="service-tags" aria-label="Tecnologías relacionadas">
+            <li>SQL</li><li>SAP ERP</li><li>BI</li><li>Reporting</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal-section" id="service-fintech">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>FinTech &amp; Consultoría Financiera</h3>
+          <p>Digitalización de procesos financieros, optimización de tesorería y construcción de métricas críticas para el negocio.</p>
+          <ul class="service-tags" aria-label="Tecnologías relacionadas">
+            <li>Tesorería</li><li>SAP</li><li>Automatización</li><li>KPIs</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal-section" id="service-fullstack">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Desarrollo Full Stack</h3>
+          <p>Aplicaciones web completas con HTML, CSS, JavaScript y frameworks modernos. Actualmente en formación avanzada.</p>
+          <ul class="service-tags" aria-label="Tecnologías relacionadas">
+            <li>HTML/CSS</li><li>JavaScript</li><li>Git</li><li>GitHub</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal-section" id="service-certs">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3>Certificaciones Técnicas</h3>
+          <p>Python, Git &amp; GitHub, ORMs, Principios SOLID y SQL. Aprendizaje continuo con foco en la aplicación práctica.</p>
+          <ul class="service-tags" aria-label="Tecnologías relacionadas">
+            <li>Python Cert.</li><li>Git</li><li>SOLID</li><li>SQL Cert.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section" id="experience" aria-label="Experiencia profesional">
+    <div class="container">
+      <div class="section-tag">Trayectoria</div>
+      <h2 class="section-title">Experiencia <span class="gradient-text">profesional</span></h2>
+
+      <div class="timeline" role="list">
+
+        <div class="timeline-item reveal-section" role="listitem">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Treasury Team Leader</h3>
+                <span class="timeline-company">SPRINTER</span>
+              </div>
+              <span class="timeline-period">2017 – 2025</span>
+            </div>
+            <p class="timeline-desc">Gestión avanzada de datos financieros mediante SAP ERP y optimización de flujos de trabajo. Análisis de métricas críticas y toma de decisiones estratégica en un entorno de gran empresa retail.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-section" role="listitem">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Contable</h3>
+                <span class="timeline-company">Hospital Clínica Benidorm</span>
+              </div>
+              <span class="timeline-period">2014 – 2017</span>
+            </div>
+            <p class="timeline-desc">Contabilidad general en sector sanitario privado. Gestión de cuentas, cierre mensual y reporting financiero.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-section" role="listitem">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Market Maker</h3>
+                <span class="timeline-company">Magna Bionica Trading</span>
+              </div>
+              <span class="timeline-period">2012 – 2014</span>
+            </div>
+            <p class="timeline-desc">Inversión en bolsa intradía con análisis constante del mercado mediante Microsoft Excel. Desarrollo de estrategias para obtener rendimientos a largo plazo.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-section" role="listitem">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Accounting Assistant</h3>
+                <span class="timeline-company">IBIDEM Law &amp; Strategy</span>
+              </div>
+              <span class="timeline-period">2012 &amp; 2014</span>
+            </div>
+            <p class="timeline-desc">Apoyo contable con Contaplus, gestión de cobros y funciones administrativas diversas en despacho jurídico.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-section" role="listitem">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Cashier / Comercial</h3>
+                <span class="timeline-company">Bancaja · Caja Madrid · Caja Murcia · Banco de Valencia</span>
+              </div>
+              <span class="timeline-period">2009 – 2012</span>
+            </div>
+            <p class="timeline-desc">Funciones de caja y comerciales en múltiples entidades bancarias. Venta de productos financieros, atención al cliente y gestión de operaciones diarias.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION ========== -->
+  <section class="section section-alt" id="education" aria-label="Formación académica">
+    <div class="container">
+      <div class="section-tag">Formación</div>
+      <h2 class="section-title">Educación &amp; <span class="gradient-text">Certificaciones</span></h2>
+
+      <div class="edu-grid">
+        <div class="edu-card reveal-section" id="edu-fullstack">
+          <div class="edu-icon" aria-hidden="true">🎓</div>
+          <div class="edu-content">
+            <h3>Máster en Desarrollo Full Stack</h3>
+            <span class="edu-school">Conquer Blocks</span>
+            <span class="edu-period">2026 – Actualidad</span>
+            <span class="edu-badge ongoing">En curso</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-section" id="edu-ade">
+          <div class="edu-icon" aria-hidden="true">📘</div>
+          <div class="edu-content">
+            <h3>Grado en Administración y Dirección de Empresas</h3>
+            <span class="edu-school">Universitat d'Alacant</span>
+            <span class="edu-period">2011 – 2016</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-section" id="edu-master-fin">
+          <div class="edu-icon" aria-hidden="true">💹</div>
+          <div class="edu-content">
+            <h3>Máster Oficial en Finanzas</h3>
+            <span class="edu-school">Universidad de Murcia</span>
+            <span class="edu-period">2009 – 2011</span>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-section" id="edu-dip">
+          <div class="edu-icon" aria-hidden="true">🏛️</div>
+          <div class="edu-content">
+            <h3>Diplomatura en Ciencias Empresariales</h3>
+            <span class="edu-school">Universidad de Alicante</span>
+            <span class="edu-period">2005 – 2009</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="certs-section">
+        <h3 class="certs-title">Certificaciones Técnicas</h3>
+        <div class="certs-list" role="list">
+          <div class="cert-pill reveal-section" role="listitem" id="cert-python">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Python Language Certification
+          </div>
+          <div class="cert-pill reveal-section" role="listitem" id="cert-git">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Git &amp; GitHub
+          </div>
+          <div class="cert-pill reveal-section" role="listitem" id="cert-orm">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            ORMs en Python
+          </div>
+          <div class="cert-pill reveal-section" role="listitem" id="cert-solid">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            Principios SOLID &amp; Bases de datos
+          </div>
+          <div class="cert-pill reveal-section" role="listitem" id="cert-sql">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            SQL Certification
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contact" aria-label="Contacto y redes sociales">
+    <div class="container">
+      <div class="section-tag">Contacto</div>
+      <h2 class="section-title">¿Hablamos sobre tu <span class="gradient-text">próximo proyecto</span>?</h2>
+      <p class="contact-intro">Estoy disponible para proyectos freelance, colaboraciones y oportunidades profesionales. No dudes en contactarme.</p>
+
+      <div class="contact-grid">
+        <a href="mailto:nuria_mm_87@hotmail.com" class="contact-card" id="contact-email" aria-label="Enviar email a Nuria Maestre">
+          <div class="contact-card-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">Email</span>
+            <span class="contact-card-value">nuria_mm_87@hotmail.com</span>
+          </div>
+          <svg class="contact-card-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+
+        <a href="tel:+34647926476" class="contact-card" id="contact-phone" aria-label="Llamar a Nuria Maestre">
+          <div class="contact-card-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.27 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.18 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 8 8l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">Teléfono</span>
+            <span class="contact-card-value">647 926 476</span>
+          </div>
+          <svg class="contact-card-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+
+        <a href="https://linkedin.com/in/nuria-maestre-74864053" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-linkedin" aria-label="Ver perfil de LinkedIn de Nuria Maestre">
+          <div class="contact-card-icon linkedin-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">LinkedIn</span>
+            <span class="contact-card-value">nuria-maestre-74864053</span>
+          </div>
+          <svg class="contact-card-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+
+        <a href="https://github.com/NuriMaes" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-github" aria-label="Ver perfil de GitHub de Nuria Maestre">
+          <div class="contact-card-icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">GitHub</span>
+            <span class="contact-card-value">NuriMaes</span>
+          </div>
+          <svg class="contact-card-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <span class="nav-logo">NM<span class="dot">.</span></span>
+      <p class="footer-copy">© <span id="footer-year"></span> Nuria Maestre · Diseño &amp; Desarrollo propio</p>
+      <div class="footer-socials" aria-label="Redes sociales">
+        <a href="https://linkedin.com/in/nuria-maestre-74864053" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/NuriMaes" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
