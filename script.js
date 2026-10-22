@@ -248,7 +248,7 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 
 // ── Console greeting ─────────────────────────────────────────
 console.log(
-  '%c👋 Hola! Soy Nuria Maestre\n%cPython Developer · AI Automation · FinTech\n%cgithub.com/NuriMaes',
+  '%c👋 Hola! Soy Nuria Maestre\n%cResponsable de Administración y Finanzas · Treasury & Financial Manager\n%cgithub.com/NuriMaes',
   'font-size:18px; font-weight:bold; color:#a78bfa;',
   'font-size:13px; color:#94a3b8;',
   'font-size:11px; color:#60a5fa; text-decoration:underline;'
